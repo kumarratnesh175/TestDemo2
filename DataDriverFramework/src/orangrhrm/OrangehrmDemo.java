@@ -26,7 +26,7 @@ public class OrangehrmDemo {
 		d.findElement(By.xpath("//input[@name='username']")).sendKeys(user);
 		d.findElement(By.xpath("//input[@name='password']")).sendKeys(pass);
 		d.findElement(By.xpath("//button[@type='submit']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		d.close();
 		
 		
